@@ -1,5 +1,5 @@
 server = function(input, output) {
   output$mytable = renderDataTable({
-    protect=read.csv('stageplot.csv)
+    protect=read.csv('stageplot.csv')
   })
 }
